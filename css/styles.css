@@ -1,0 +1,159 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  color: #66BFBF;
+    line-height: 2;
+
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+div {
+  background-color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+hr {
+
+    border-style:none;
+    border-top-style:dotted;
+    border-width:5px;
+    border-color:#EAF6F6;
+    width:4%;
+margin: 100px auto;
+
+}
+
+a{
+  color: #1199ee;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#eaf6f6;
+}
+.top-container {
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 0;
+padding:50px 0;
+}
+
+.bottom-container {
+  margin: 0;
+  position: relative;
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+
+}
+
+.pro {
+  text-decoration: underline;
+
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20PX 0;
+}
+.contact-message{
+  width:40%;
+  margin:40px auto 60px;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row{
+margin:100px auto 100px auto;
+text-align: left;
+    width: 50%;
+
+}
+
+.pilot{float: left;
+  width:25%;
+  height: 25%;
+  margin-right: 30px;
+}
+.webdev{float: right;
+  width: 25%;
+  height: 25%;
+  margin-left: 30px;
+
+}
+
+.btn {
+	background-color:#11cdd4;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	border:1px solid #3381ed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0 #2f6627;
+}.btn:hover {
+	background-color:#3381ed;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
